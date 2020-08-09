@@ -4,6 +4,10 @@
 #include "CommonAPI.h"
 #include "LessonX.h"
 #include"bits/stdc++.h"
+
+
+int laba=1;//控制喇叭绑定的叉号精灵的是否可见
+
 ///////////////////////////////////////////////////////////////////////////////////////////
 //
 // 主函数入口
@@ -28,6 +32,8 @@ int PASCAL WinMain(HINSTANCE hInstance,
 		float	fTimeDelta	=	dGetTimeDelta();
 
 		// 执行游戏主循环
+		//printf("1\n");//测试刷新频率
+        dSetSpriteVisible("chahao",laba%2 );//控制叉号精灵的出现与消失
 		GameMainLoop( fTimeDelta );
 	};
 
@@ -95,6 +101,11 @@ void dOnMouseClick( const int iMouseType, const float fMouseX, const float fMous
     if(iMouseType==0 && dIsPointInSprite("fanhui2",fMouseX,fMouseY))
     {
         dLoadMap("wine.t2d");
+    }
+    if(iMouseType==0 && dIsPointInSprite("laba",fMouseX,fMouseY))
+    {
+        laba=laba+1;
+        //此处添加控制声音播放函数
     }
 	OnMouseClick(iMouseType, fMouseX, fMouseY);
 
