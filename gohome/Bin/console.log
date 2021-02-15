@@ -1,0 +1,139 @@
+//-------------------------- 7/21/2019 -- 19:19:16 -----
+Processor Init:
+   Intel (unknown, Pentium Pro/II/III family), ~2.85 Ghz
+     (timed at roughly 2.83 Ghz)
+   FPU detected
+   MMX detected
+   SSE detected
+ 
+Math Init:
+   Installing Standard C extensions
+   Installing Assembly extensions
+   Installing FPU extensions
+   Installing MMX extensions
+   Installing SSE extensions
+ 
+Input Init:
+   DirectInput enabled.
+
+Initializing chunk mappings...
+   o 'TEXT' maps to TextChunk
+   o 'SCHK' maps to UnknownChunk
+   o 'SCHK' maps to SimChunk
+Loading compiled script E:/funcode/Games/gohome/Bin/common/main.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/game/main.cs.
+ % - Initializing Common
+Loading compiled script E:/funcode/Games/gohome/Bin/common/preferences/defaultPrefs.cs.
+Reading Display Device information...
+   Primary Display Device Found:
+      Vendor Id: VEN_0000
+      Device Id: DEV_0000
+
+Using OpenGL rendering. Fullscreen: 0
+
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/xml.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/properties.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/common.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/audio.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/canvas.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/cursor.cs.
+Video Init:
+   Accelerated OpenGL display device detected.
+   Accelerated D3D device not detected.
+   Voodoo 2 display device not detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+Setting screen mode to 320x320x32 (w)...
+Creating a new window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: NVIDIA Corporation
+  Renderer: GeForce GTX 1070/PCIe/SSE2
+  Version: 4.6.0 NVIDIA 430.86
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 4)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  NV_vertex_array_range
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16)
+  WGL_EXT_swap_control
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  3DFX_texture_compression_FXT1
+
+Max Texture Size reported as: 32768
+Setting screen mode to 800x600x32 (w)...
+OpenAL Driver Init:
+ Missing OpenAL Extension function 'EAXSet'
+ Missing OpenAL Extension function 'EAXGet'
+   Vendor: Creative Labs Inc.
+   Version: 1.1
+   Renderer: Software
+   Extensions: EAX EAX2.0 EAX3.0 EAX4.0 EAX5.0 EAX3.0EMULATED EAX4.0EMULATED AL_EXT_OFFSET AL_EXT_LINEAR_DISTANCE AL_EXT_EXPONENT_DISTANCE
+
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/profiles.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/cursors.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/messageBoxOk.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/messageBoxYesNo.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/messageBoxYesNoCancel.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/messageBoxOKCancel.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/messageBoxOKCancelDetailsDlg.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/messagePopup.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/options.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/remap.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/console.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/NetworkMenu.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/startServer.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/joinServer.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/waitingForServer.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/helpDlg.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/messageBox.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/help.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gui/chatGui.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/screenshot.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/metrics.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/Gui/FrameOverlayGui.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/scriptDoc.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/keybindings.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/options.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/levelManagement.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/projectManagement.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/projectResources.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/common/gameScripts/align.cs.
+
+FunCode (v1.7.5) initialized...
+Loading compiled script E:/funcode/Games/gohome/Bin/game/managed/datablocks.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/game/managed/persistent.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/game/managed/brushes.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/game/gameScripts/datablocks.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/game/gameScripts/guiProfiles.cs.
+Loading compiled script E:/funcode/Games/gohome/Bin/game/gui/mainScreen.gui.
+Loading compiled script E:/funcode/Games/gohome/Bin/game/gameScripts/game.cs.
+Activating DirectInput...
+DirectInput joystick failed to enable!
+Compiling E:/funcode/Games/gohome/Bin/game/data/levels/guanka2.t2d...
+Loading compiled script E:/funcode/Games/gohome/Bin/game/data/levels/guanka2.t2d.
+Namespace::unlinkClass - cannot unlink namespace parent linkage for man for t2dImageMapDatablock.
+Error: cannot change namespace parent linkage of man from t2dImageMapDatablock to t2dAnimatedSprite.
+Namespace::unlinkClass - cannot unlink namespace parent linkage for man for t2dImageMapDatablock.
+Compiling E:/funcode/Games/gohome/Bin/game/data/levels/kaishijiemian.t2d...
+Loading compiled script E:/funcode/Games/gohome/Bin/game/data/levels/kaishijiemian.t2d.
+Compiling E:/funcode/Games/gohome/Bin/game/data/levels/story1.t2d...
+Loading compiled script E:/funcode/Games/gohome/Bin/game/data/levels/story1.t2d.
+DirectInput deactivated.
+Shutting down the OpenGL display device...
+Making the GL rendering context not current...
+Deleting the GL rendering context...
+Releasing the device context...
